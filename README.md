@@ -21,7 +21,7 @@ Script Execution:
 python3 Google_trends_scrapper.py
 
 Possible issues:
-While running the script you might encounter 429 request error code which just means you are exceeding the request limit set by google. This happens when we are requesting data for long periods
+While running the script you might encounter 429 response code which just means you are exceeding the request limit set by google. This happens when we are requesting data for long periods
 
 Work around:
 There are possible workarounds like using proxies and creating sub class. The best solution that worked was to wait for a while or send request in lesser batches.
